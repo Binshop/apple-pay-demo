@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1317E6B-BA09-4409-9F61-54260F373E0D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8FB46225-C1C1-4BC7-924C-BC0D84B2857F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "src\Web\Web.csproj", "{7C3663D6-C905-46CD-8A4E-6BBA333755D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "src\ApplicationCore\ApplicationCore.csproj", "{2B3A07AC-C331-4553-B3CD-2E098E525604}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedModels", "src\SharedModels\SharedModels.csproj", "{9F03AD90-96FE-4B15-B861-6F71072BE4E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentGateway", "src\PaymentGateway\PaymentGateway.csproj", "{98CC36B4-C257-4A8A-BD56-CF6B71DC92D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C3663D6-C905-46CD-8A4E-6BBA333755D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3663D6-C905-46CD-8A4E-6BBA333755D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3663D6-C905-46CD-8A4E-6BBA333755D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3663D6-C905-46CD-8A4E-6BBA333755D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3A07AC-C331-4553-B3CD-2E098E525604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3A07AC-C331-4553-B3CD-2E098E525604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3A07AC-C331-4553-B3CD-2E098E525604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3A07AC-C331-4553-B3CD-2E098E525604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F03AD90-96FE-4B15-B861-6F71072BE4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F03AD90-96FE-4B15-B861-6F71072BE4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F03AD90-96FE-4B15-B861-6F71072BE4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F03AD90-96FE-4B15-B861-6F71072BE4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98CC36B4-C257-4A8A-BD56-CF6B71DC92D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98CC36B4-C257-4A8A-BD56-CF6B71DC92D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98CC36B4-C257-4A8A-BD56-CF6B71DC92D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98CC36B4-C257-4A8A-BD56-CF6B71DC92D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C3663D6-C905-46CD-8A4E-6BBA333755D7} = {8FB46225-C1C1-4BC7-924C-BC0D84B2857F}
+		{2B3A07AC-C331-4553-B3CD-2E098E525604} = {8FB46225-C1C1-4BC7-924C-BC0D84B2857F}
+		{9F03AD90-96FE-4B15-B861-6F71072BE4E0} = {8FB46225-C1C1-4BC7-924C-BC0D84B2857F}
+		{98CC36B4-C257-4A8A-BD56-CF6B71DC92D0} = {8FB46225-C1C1-4BC7-924C-BC0D84B2857F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {052644FA-9A1D-4373-8B6B-FC289E9BEB7C}
+	EndGlobalSection
+EndGlobal
