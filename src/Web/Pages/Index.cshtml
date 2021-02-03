@@ -14,7 +14,7 @@
         <div class="card">
             <div class="card-body">
                 @{ await Html.RenderPartialAsync("_ProductItemPartial", product); }
-                <a asp-page="/Payments/DirectPayment/Checkout" asp-route-id="@product.Id" class="btn btn-primary btn-block">Buy Now</a>
+                <a asp-page="/Checkout" asp-route-id="@product.Id" class="btn btn-primary btn-block">Buy Now</a>
             </div>
         </div>
     }
